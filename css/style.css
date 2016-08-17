@@ -4,78 +4,18 @@
     padding: 0px;
 }
 
-#main_container {
+body {
     width: 1000px;
     height: auto;
     background-color: black;
     color: white;
 }
 
-body {
-    background-color: black;
-}
-
-.navbar {
-background-image: linear-gradient(to top, black 50%, #9E9E9E 100%);
-    padding: 10px;
-}
-
-
-.navbar img {
-    max-width: 15%;
-    height: auto;
-}
-
-.page-header h1 {
-    font-size: 40px;
+.contact_card {
+    background-color: white;
+    color: black;
     text-align: center;
-    margin; 40px;
-}
-
-.page-header {
-    margin: 70px 0 0 0; 
-}
-
-#second_container h2{
-    font-size: 25px;
-
-}
-
-#second_container {
-    margin: 0 0 100px 0;
-    padding: 20px;
-}
-
-#second_container a{
-    text-decoration: none;
-}
-
-#right_body {
-    background-image: linear-gradient(to left, #545151 0%, #9E9E9E 100%);
+    border: 6px solid grey;
     border-radius: 10px;
 }
 
-#right_body h2 {
-    padding: 10px;
-}
-
-.img-responsive {
-    border: 2px solid white;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    margin: 0px 0px 40px 0px;
-}
-
-.resume_pic {
-    width: auto;
-    height: auto;
-    border: 5px solid grey;
-}
-
-#djroue_main {
-    width: auto;
-    height: auto;
-    border-style: none;
-    margin: 50px 0 15px 0;
-}

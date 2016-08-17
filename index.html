@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Rich Ruais Portfolio">
-    <title>Rich Ruais Portfolio</title>
+    <meta name="description" content="Contact Card">
+    <title>Contact Card</title>
     <!--Bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,35 +12,34 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img alt="Brand" src="images/djroue.jpg"></a>
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"> <a href="index.html">Home<span class="sr-only">(current)</span></a> </li>
-                    <li><a href="resume_page.html">Resume</a> </li>
-                </ul>
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
     <!--Main Container-->
     <div id="main_container" class="container-fluid">
         <div class="page-header">
-            <h1>Rich Ruais Portfolio</h1> </div>
+            <h1>Contact Card</h1> </div>
         <!--Second Container-->
         <div id="second_container" class="container-fluid">
             <div class="row">
-                <div class="col-md-6"> <img src="images/IMG_0510.JPG" class="img-responsive" alt="Image"> 
-                 <audio src="audio/HipHop,%20Celebration,%20Power,%20Party.mp3" controls id="audio"> Your browser does not support the audio element. </audio>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" class="form-control" id="first_name" placeholder="First Name"></div>
+                        <div class="form-group">
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" class="form-control" id="last_name" placeholder="Last Name"></div>
+                        
+                        <div class="form-group">
+                            <label for="exampleTextarea">Description:</label>
+                            <textarea class="form-control" rows="3" id="description"></textarea>
+                            <small id="descriptionHelp" class="form-text text-muted">Tell us about yourself!</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-               
-                <div class="col-md-6" id="right_body">
-                    <h2>Bio</h2>
-                    <p>Currently I am a Producer, Engineer and Mixer. In a few months, when I finish the coding dojo program, I will be a Web Developer!!!!</p>
-                    <p>GitHub: <a href="https://github.com/RRuais">https://github.com/RRuais</a></p> <img src="images/djroue.jpg" class="img-responsive" alt="DJ Roue" id="djroue_main"> </div>
+                <div class="col-md-6" id="right_body"> 
+                
+                
+                </div>
             </div>
         </div>
         <!--Main Container End-->
